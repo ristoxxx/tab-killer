@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<h3>Tab Killer</h3>
+
+<label>
+  <input type="checkbox" id="toggle" />
+  Enabled
+</label>
+
+<h4>Blocked Sites</h4>
+<ul id="siteList"></ul>
+<input id="newSite" placeholder="example.com" />
+<button id="addSite">Add</button>
+
+<h4>Time Ranges</h4>
+<ul id="timeList"></ul>
+<input type="time" id="startTime" />
+<input type="time" id="endTime" />
+<button id="addTime">Add</button>
+
+<script src="popup.js"></script>
+</body>
+</html>
